@@ -9,6 +9,7 @@ public class WhileNumeros {
         int n = 0;
         
         System.out.println("Escribe un numero positivo o negativo");
+        System.out.println("El programa se detendra cuando escribas cero");
         n = entrada.nextInt();
         
         while (n != 0){
